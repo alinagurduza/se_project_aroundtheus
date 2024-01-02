@@ -32,7 +32,7 @@
   }
 }
 
-@madia screen and (max-width: 880px) and (min-width: 581px) {
+@media screen and (max-width: 880px) and (min-width: 581px) {
   .footer {
     width: 100%;
   }
