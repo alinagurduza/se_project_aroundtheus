@@ -1,15 +1,14 @@
 .footer {
-  margin: 0 auto;
+  margin: 0;
   max-width: 880px;
   position: relative;
+  width: 100%;
   padding-top: 67px;
   padding-bottom: 60px;
-  width: 100%;
 }
 
 .footer__copyright {
-  width: 318px;
-  height: 18px;
+  max-width: 318px;
   color: #545454;
   font-family: "Inter", Arial, sans-serif;
   font-size: 18px;
@@ -21,14 +20,15 @@
 
 @media screen and (max-width: 580px) {
   .footer__copyright {
-    width: 282px;
-    height: 14px;
+    max-width: 282px;
     font-size: 14px;
+    padding: 48px 19px 36px 19px;
+    margin: 0;
   }
 
   .footer {
     margin: 0;
-    padding: 48px 19px 36px 19px;
+    padding: 0;
   }
 }
 
