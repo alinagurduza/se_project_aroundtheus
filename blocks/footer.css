@@ -1,10 +1,10 @@
 .footer {
-  margin: 0;
   max-width: 880px;
   position: relative;
   width: 100%;
   padding-top: 67px;
   padding-bottom: 60px;
+  margin: 0 auto;
 }
 
 .footer__copyright {
@@ -27,7 +27,6 @@
   }
 
   .footer {
-    margin: 0;
     padding: 0;
   }
 }
